@@ -1,5 +1,7 @@
+body {
+    background-image: url("images/space.jpg");
+  }
 
- .crystal-image {
-    width: 300px;
-    height: 300px;
+h1 {
+color: white;
   }
