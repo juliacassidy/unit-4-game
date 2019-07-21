@@ -23,3 +23,26 @@ font-family: 'Bungee Outline', cursive;
   .container {
     margin: 20px;
   }
+
+  #gemOne {
+    height: 150px;
+    padding-right: 20px;
+  }
+
+  #gemTwo {
+    height: 150px;
+    padding-right: 40px;
+  }
+
+  #gemThree {
+    height: 150px;
+    padding-right: 20px;
+  }
+
+  #gemFour {
+    height: 150px;
+  }
+
+  .gems {
+      align-content: center;
+  }
