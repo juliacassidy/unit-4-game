@@ -17,13 +17,10 @@ font-family: 'Bungee Outline', cursive;
     font-family: 'Darker Grotesque', sans-serif;
   }
 
-  #numbertitle {
+  #smalltitles {
       font-size: 30px;
   }
 
-  .container {
-    margin: 30px;
-  }
 
   #gemOne {
     height: 150px;
@@ -39,4 +36,8 @@ font-family: 'Bungee Outline', cursive;
 
   #gemFour {
     height: 150px;
+  }
+
+  .gems {
+    padding: 15px;
   }

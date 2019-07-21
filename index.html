@@ -10,45 +10,48 @@
     <link href="https://fonts.googleapis.com/css?family=Bungee+Outline&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript"></script>
+    <script type="text/javascript" src="game.js"></script>
 
 </head>
 
-    <h1 class="display-4 text-center">Crystal Collector Game </h1>
+<h1 class="display-4 text-center">Crystal Collector Game </h1>
 
-        <h2 class="col text-center"> <strong> How to play: </strong> A random number will be selected and shown. Your goal is to match your
-            score to
-            the number shown by selecting crystals. Each crystal has an unknown value. If you go over the value, you
-            lose.
-            Click a crystal to begin! </h2>
-        <br>
-    
-        <h1 id=numbertitle> Number to Match: <span id="numberToGuess"></span> </h1>
-        <h2> Wins: </h2>
-        <h2> Losses: </h2>
-        <br>
-        <div class="container mt-4">
+<h2 class="col text-center"> <strong> How to play: </strong> A random number will be selected and shown. Your goal is to
+    match your score to the number shown by selecting crystals. Each crystal has an unknown value. If you go over the value, youlose.
+    Click a crystal to begin! </h2>
+<br>
+
+<h1 id=smalltitles> Score to Match: <span id="scoreToMatch"></span> </h1>
+<h1 id=smalltitles> Your Score: <span id="yourScore"></span> </h1>
+<h2 id=wins> Wins: <span id="wins"></span> </h2>
+<h2 id=losses> Losses: <span id="losses"></span> </h2>
+
+<br>
+
+
+<div class="container mt-4">
     <div class="row m-auto">
-                <div class="col-md-2 m-auto">
-                    <img class=gems id=gemOne src='images/gem1.png' alt="gem 1">
-                </div>
 
-                <div class="col-md-2 m-auto">
-                    <img class=gems id=gemTwo src='images/gem2.png' alt="gem 2">
-                </div>
+        <div class="col-md-2 m-auto">
+            <img class=gems id=gemOne src='images/gem1.png' alt="gem 1">
+        </div>
 
-                <div class="col-md-2 m-auto">
-                    <img class=gems id=gemThree src='images/gem3.png' alt="gem 3">
+        <div class="col-md-2 m-auto">
+            <img class=gems id=gemTwo src='images/gem2.png' alt="gem 2">
+        </div>
 
-                </div>
-                <div class="col-md-2 m-auto">
-                    <img class=gems id=gemFour src='images/gem4.png' alt="gem 4">
-                </div>
-            </div>
+        <div class="col-md-2 m-auto">
+            <img class=gems id=gemThree src='images/gem3.png' alt="gem 3">
+
+        </div>
+        <div class="col-md-2 m-auto">
+            <img class=gems id=gemFour src='images/gem4.png' alt="gem 4">
+        </div>
+    </div>
 
 
 
-        
-</body>
+
+    </body>
 
 </html>
