@@ -1,43 +1,36 @@
+
+.crystals{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.crystal{
+	height:100px;
+	width: 100px;
+
+}
+
+
+img{
+	width:50px;
+}
+
 body {
-    background: black;
-    margin: 30px;
-  }
+  background: black;
+  color: white;
+  margin: 30px;
+}
+
+
+p, h2{
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+}
 
 h1 {
-color: white;
-text-align: center;
-font-size: 60px;
-font-family: 'Bungee Outline', cursive;
-  }
-
-  h2 {
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Darker Grotesque', sans-serif;
-  }
-
-  #smalltitles {
-      font-size: 30px;
-  }
-
-
-  #gemOne {
-    height: 150px;
-  }
-
-  #gemTwo {
-    height: 150px;
-  }
-
-  #gemThree {
-    height: 150px;
-  }
-
-  #gemFour {
-    height: 150px;
-  }
-
-  .gems {
-    padding: 15px;
-  }
+  font-family: 'Geostar', cursive;
+  font-display: center;
+  text-align: center;
+}
